@@ -14,16 +14,16 @@ import sys
 async def Start_msg(bot: ace , m: Message):
     await bot.send_photo(
     m.chat.id,
-    photo="https://telegra.ph/file/d77a3767a8d58da76f2df.jpg",
+    photo="https://graph.org/file/f707b0a9ad47408692f7b.jpg",
     caption = f"Hello [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n" +
     f"\nI am Auto Forwarder bot." +
     f"\nPress /help for More Info.\n\n__**Developer** : ACE\n**Language** : Python\n**Framwork** : Pyrogram__",
     # parse_mode="md",
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("🙋‍♂️Dev Ace", url="https://t.me/AceCallRobot")],
-            [InlineKeyboardButton("Channel", url="https://t.me/WickedSkull")],
-            [InlineKeyboardButton("Repo", url="https://github.com/imacekun/ACE-AUTO-FORWARD/")],
+            [InlineKeyboardButton("🙋‍♂️Instant Ace", url="https://t.me/Instant99")],
+            [InlineKeyboardButton("Channel", url="https://t.me/AnonMoviesV3")],
+            [InlineKeyboardButton("Repo", url="https://github.com/Njandappan/ACE-AUTO-FORWARD")],
         ],
     )
     )
